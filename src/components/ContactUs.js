@@ -15,14 +15,14 @@ export default class ContactUs extends Component {
           <aside className="eigth columns footer-widgets">
             <div className="widget">
               <h4>
-                E-mail :
+                E-mail : {" "}
                 <a href="mailto:kaori.caplan@gmail.com">
-                  kaori.caplan@gmail.com
+                   kaori.caplan@gmail.com
                 </a>
               </h4>
-              {resumeData.contacts.map((item) => {
+              {resumeData.contacts.map((item,i) => {
                 return (
-                  <h4>
+                  <h4 key={i}>
                     {item.name} :{" "}
                     <a
                       href={item.url}

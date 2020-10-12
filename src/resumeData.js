@@ -65,21 +65,44 @@ let resumeData = {
   ],
   work: [
     {
-      CompanyName: "Some Company",
-      specialization: "Some specialization",
-      MonthOfLeaving: "Jan",
-      YearOfLeaving: "2018",
-      Achievements: "Some Achievements",
+      CompanyName: "Yamaha Music Japan CO, LTD.",
+      specialization: "Music instructor",
+      MonthOfLeaving: "Oct, 1996",
+      YearOfLeaving: "June, 2002",
+      Achievements: "Teaching varies of ages students one on one and group of 10 student classes. Arranging music and publishing. Organize class concert, directing student bands and instructor’s bands.",
     },
     {
-      CompanyName: "Some Company",
-      specialization: "Some specialization",
-      MonthOfLeaving: "Jan",
-      YearOfLeaving: "2018",
-      Achievements: "Some Achievements",
+      CompanyName: "Ringtone team “Mecha-mero 25yen”",
+      specialization: "Team leader, manager ",
+      MonthOfLeaving: "July, 1999",
+      YearOfLeaving: "Sep, 2001",
+      Achievements: "Managing and running a team to make ringtone for J-PHONE Co., Ltd. (the roots of SoftBank's mobile communications) with 15 employees. Also, technical supporting and instructing them.",
     },
+    {
+      CompanyName: "SoftBank Corp. Mobile",
+      specialization: "Sales, Technical support service ",
+      MonthOfLeaving: "Oct, 2007",
+      YearOfLeaving: "Mar, 2010",
+      Achievements: "Wide knowledge of mobile phone, computer, internet technology. Installed, set up and repaired devices and system components. Answered calls for customer questions. Improved customer satisfaction by finding creative solutions to problems. Taught junior employees how to meet operational and sales goals with proactive strategies. Connected with customers daily to understand needs, provide assistance and collect feedback to optimize operations. ",
+    },
+    {
+      CompanyName: "Faze 4 Orchestra",
+      specialization: "Music performer ",
+      MonthOfLeaving: "Feb, 2014",
+      YearOfLeaving: "Present",
+      Achievements: "Performance any style of music depends on customer’s request at wedding party, ceremony, cocktail party.",
+    },
+    {
+      CompanyName: "Children Achievement Results Effectively LLC",
+      specialization: "Music teacher at public school, music department director ",
+      MonthOfLeaving: "July, 2017",
+      YearOfLeaving: "June, 2020",
+      Achievements: "Planning and providing music education service for community school pre k, 1-8th grade students in whole East New York, Brownsville area.Training musical department stuff. Organizing some event for the schools.  with school administrators to develop class management policies. Maintained safe, clean, and organized class environment. Involved parents in student education by cultivating strong relationships."
+      
+    },
+    
   ],
-  skillsDescription: "Here's My Skills",
+    skillsDescription: "Here's My Skills",
   skills: [
     {
       skillname: "JavaScript",
@@ -108,6 +131,17 @@ let resumeData = {
     },
   ],
   portfolio: [
+    {
+      name: "Perfect-Pitch-Trainer",
+      image: "images/portfolio/PerfectPitchTrainer.png",
+      github_link: "https://github.com/kao-ring/Perfect-Pitch-Trainer",
+      deployed_link: "https://perfect-pitch-trainer-kc.herokuapp.com/",
+      deployed_icon: "img/icons/heroku.png",
+      used_tech:
+        "HTML5, SCC3, JavaScript, MongoDB, Express, Node js, React, NPM package (react-piano, passport)",
+      discription:
+        "This app helps all music learner to get a perfect pitch so that they can have easier access to learn any music instrumental and singing. It is not easy to get this ability and only the way to get this is practice every day.",
+    },
     {
       name: "THE VILLAGE",
       image: "images/portfolio/kiki-the-village.png",
@@ -222,16 +256,7 @@ let resumeData = {
       discription:
         "This is a quiz game. When you finish all questions, remain time will be your score. If you got wrong answer, you will penalized 5 seconds.",
     },
-    {
-      name: "Note-Taker",
-      image: "images/portfolio/kiki-note_taker.png",
-      github_link: "https://github.com/kao-ring/Note-Taker",
-      deployed_link: "https://note-taker-express-kc.herokuapp.com/",
-      deployed_icon: "img/icons/heroku.png",
-      used_tech: "Express.js, Routing, Postman",
-      discription:
-        " For users that need to keep track of a lot of information, it's easy to forget or be unable to recall something important. Being able to take persistent notes allows users to have written information available when needed. ",
-    },
+   
     {
       name: "Work-Day-Scheduler",
       image: "images/portfolio/kiki_Work Day Scheduler.png",
@@ -251,6 +276,16 @@ let resumeData = {
       used_tech: "JavaScript",
       discription:
         "This generator asks user to type or choose to make a password. How many characters do you want in your password? Do you need numbers? Symbols? lower case letters? Capital letters?",
+    },
+    {
+      name: "Note-Taker",
+      image: "images/portfolio/kiki-note_taker.png",
+      github_link: "https://github.com/kao-ring/Note-Taker",
+      deployed_link: "https://note-taker-express-kc.herokuapp.com/",
+      deployed_icon: "img/icons/heroku.png",
+      used_tech: "Express.js, Routing, Postman",
+      discription:
+        " For users that need to keep track of a lot of information, it's easy to forget or be unable to recall something important. Being able to take persistent notes allows users to have written information available when needed. ",
     },
   ],
   testimonials: [
