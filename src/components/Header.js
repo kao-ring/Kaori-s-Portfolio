@@ -6,23 +6,23 @@ export default class Header extends Component {
     return (
       <React.Fragment>
         <header id="home">
-            <nav id="nav-wrap">
+          <nav id="nav-wrap">
             <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
               Show navigation
             </a>
-           
+
             <ul id="nav" className="nav">
               <li className="current">
-                 <a className="smoothscroll" href="#home">
+                <a className="smoothscroll" href="#home">
                   Home
                 </a>
               </li>
               <li>
                 <a className="smoothscroll" href="#about">
                   About
-                </a>
+                  </a>
               </li>
-            
+
               <li>
                 <a className="smoothscroll" href="#resume">
                   Resume
@@ -39,7 +39,7 @@ export default class Header extends Component {
                 </a>
               </li>
             </ul>
-          </nav> 
+          </nav>
 
           <div className="row banner">
             <div className="banner-text">
@@ -48,7 +48,7 @@ export default class Header extends Component {
                 I am a {resumeData.role}. {resumeData.roleDescription}
               </h3>
               <hr />
-               <ul className="social">
+              <ul className="social">
                 {resumeData.socialLinks &&
                   resumeData.socialLinks.map((item) => {
                     return (
@@ -69,8 +69,8 @@ export default class Header extends Component {
 
           <p className="scrolldown">
             <a className="smoothscroll" href="#about">
-               <i className="icon-down-circle" />
-             </a>
+              <i className="icon-down-circle" />
+            </a>
           </p>
         </header>
       </React.Fragment>

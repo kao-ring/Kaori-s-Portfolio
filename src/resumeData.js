@@ -98,11 +98,11 @@ let resumeData = {
       MonthOfLeaving: "July, 2017",
       YearOfLeaving: "June, 2020",
       Achievements: "Planning and providing music education service for community school pre k, 1-8th grade students in whole East New York, Brownsville area.Training musical department stuff. Organizing some event for the schools.  with school administrators to develop class management policies. Maintained safe, clean, and organized class environment. Involved parents in student education by cultivating strong relationships."
-      
+
     },
-    
+
   ],
-    skillsDescription: "Here's My Skills",
+  skillsDescription: "Here's My Skills",
   skills: [
     {
       skillname: "JavaScript",
@@ -256,7 +256,7 @@ let resumeData = {
       discription:
         "This is a quiz game. When you finish all questions, remain time will be your score. If you got wrong answer, you will penalized 5 seconds.",
     },
-   
+
     {
       name: "Work-Day-Scheduler",
       image: "images/portfolio/kiki_Work Day Scheduler.png",

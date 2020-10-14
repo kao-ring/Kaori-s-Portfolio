@@ -6,12 +6,12 @@ export default class Resume extends Component {
     let resumeData = this.props.resumeData;
     return (
       <section id="resume">
-  <a href={Pdf} target="_blank" rel="noopener noreferrer">
-  <div id="resumeDL">Resume PDF{" "}
-        <i className="fas fa-download"></i></div>
-            </a>
+        <a href={Pdf} target="_blank" rel="noopener noreferrer">
+          <div id="resumeDL">Resume PDF{" "}
+            <i className="fas fa-download"></i></div>
+        </a>
 
-        
+
         <div className="row education">
           <div className="three columns header-col">
             <h1>
@@ -21,7 +21,7 @@ export default class Resume extends Component {
 
           <div className="nine columns main-col">
             {resumeData.education &&
-              resumeData.education.map((item,i) => {
+              resumeData.education.map((item, i) => {
                 return (
                   <div className="row item" key={i}>
                     <div className="twelve columns">
@@ -49,7 +49,7 @@ export default class Resume extends Component {
 
           <div className="nine columns main-col">
             {resumeData.work &&
-              resumeData.work.map((item,i) => {
+              resumeData.work.map((item, i) => {
                 return (
                   <div className="row item" key={i}>
                     <div className="twelve columns" >
@@ -77,12 +77,12 @@ export default class Resume extends Component {
           </div>
 
           <div className="nine columns main-col">
-        
+
 
             <div className="bars">
               <ul className="skills">
                 {resumeData.skills &&
-                  resumeData.skills.map((item,i) => {
+                  resumeData.skills.map((item, i) => {
                     return (
                       <li key={i}>
                         <span

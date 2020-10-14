@@ -17,10 +17,10 @@ export default class ContactUs extends Component {
               <h4>
                 E-mail : {" "}
                 <a href="mailto:kaori.caplan@gmail.com">
-                   kaori.caplan@gmail.com
+                  kaori.caplan@gmail.com
                 </a>
               </h4>
-              {resumeData.contacts.map((item,i) => {
+              {resumeData.contacts.map((item, i) => {
                 return (
                   <h4 key={i}>
                     {item.name} :{" "}
@@ -30,7 +30,7 @@ export default class ContactUs extends Component {
                       rel="noopener noreferrer"
                     >
                       {item.url}
-                    </a>
+                         </a>
                   </h4>
                 );
               })}
