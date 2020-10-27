@@ -35,6 +35,11 @@ export default class Porfolio extends Component {
                         </a>
                       </div>
                       <a
+                        href={item.github_link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >GitHub</a>
+                      <a
                         href={item.deployed_link}
                         target="_blank"
                         rel="noopener noreferrer"

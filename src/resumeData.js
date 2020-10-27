@@ -156,8 +156,8 @@ let resumeData = {
     {
       name: "Paws City",
       image: "images/portfolio/kiki_Paws City.png",
-      github_link: "https://github.com/nata-stelmakh/PawsCity",
-      deployed_link: "https://nata-stelmakh.github.io/PawsCity/",
+      github_link: "https://github.com/kao-ring/PawsCity",
+      deployed_link: "https://kao-ring.github.io/PawsCity/",
       deployed_icon: "img/icons/Octocat.png",
       used_tech:
         "HTML, CSS, BULMA, Javascript, jQuery, github, API,Responsive Design",

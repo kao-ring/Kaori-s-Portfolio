@@ -537,6 +537,12 @@ margin-right: 15px;
 /* Portfolio Content */
 #portfolio-wrapper .columns {
   margin-bottom: 36px;
+  /* min-width: 295px; */
+}
+#portfolio-wrapper {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
 }
 .portfolio-item .item-wrap {
   background: #fff;
